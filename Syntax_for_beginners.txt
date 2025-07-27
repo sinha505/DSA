@@ -1,4 +1,12 @@
-cd ~\_DSA\DSA
-git add practice_codes.py  
-git commit -m "Add practice_codes.py" 
-git push origin main    
+# Case-1: you have created a new file in local and want to push to repo
+	cd ~\_DSA\DSA
+	git add practice_codes.py  
+	git commit -m "Add practice_codes.py"  (this is comments)
+	git push origin main    
+
+# Case-2: you have made changes in repo. also added a new file in local. cannot push to repo unless you pull repo to local to align.
+	git pull origin main     (now ready to push the updated local to repo) 
+	git push origin main    
+
+# Case-3: you/team made changes in repo. just pull in local for updates:
+	git pull origin main     (now ready to push further updates made locally to repo) 
