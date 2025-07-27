@@ -1,2 +1,2 @@
-# DSA
+# Data Structure & Algos
 DSA Codebase
